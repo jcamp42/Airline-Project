@@ -10,7 +10,7 @@ import java.io.PrintStream;
  * interface
  *
  */
-public class TestFrontend {
+public class FrontendTests {
 
   /**
    * This test tests if the frontend interface will correctly enter the add airport mode when the
