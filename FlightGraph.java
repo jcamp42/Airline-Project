@@ -13,7 +13,7 @@ import java.util.Enumeration;
  *
  */
 public class FlightGraph implements BackendInterface {
-  private CS400Graph<String> airportsGraph;
+  private Graph<String> airportsGraph;
   private List<String> airportsList;
   private List<Airline> airlinesList;
 
@@ -54,7 +54,7 @@ public class FlightGraph implements BackendInterface {
    * 
    */
   private void airportsGraph() {
-    airportsGraph = new CS400Graph<String>();
+    airportsGraph = new Graph<String>();
 
     // add all airport vertices to graph
     for (String airport : airportsList) {
